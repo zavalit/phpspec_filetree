@@ -1,0 +1,24 @@
+{
+    "name": "zavalit/phpspec-filetree",
+    "description": "Create an application structure from a single config file, with a basic phpspec classes",
+    "keywords": ["phpspec", "extension"],
+    "require": {
+        "phpspec/phpspec": "~2.2"
+    },
+    "require-dev": {
+        "behat/behat": "~3.0"
+    },
+
+    "autoload": {
+      "psr-0":
+        {
+          "Zavalit": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vsevolod Dolgopolov",
+            "email": "zavalit@gmail.com"
+        }],
+     "license": "MIT"
+}
