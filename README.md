@@ -13,13 +13,29 @@
  phpspec.filetree.yml can look smth like this:
     
     filetree:
-      - Zavalit\Test\Example
-      - Zavalit\Model\Example
-      - Zavalit\Model\Example2
-      - Zavalit\Test\Listeners\Example
+	 - Zavalit:
+	     - Model:
+	        - Cart
+	        - Product
+	        - User
+	     - Business:
+	        - Checkout
+	        - Shippment
+	        - Listeneres:
+	           - StornoListener
+	           - BayListener
 
 and run 
 
     $ phpspec filetree
 
-after that you should have 4 Classes created in a psr-0 conform way and also it's Specs.
+after that you should have 7 Classes created in a psr-0 conform way:
+   - Zavalit\Model\Cart 
+   - Zavalit\Model\Product
+   - Zavalit\Model\User 
+   - Zavalit\Business\Checkout
+   - Zavalit\Business\Shippment 
+   - Zavalit\Business\Listeneres\StornoListener
+   - Zavalit\Business\Listeneres\BayListener
+
+ and also it's Specs.
