@@ -38,4 +38,4 @@ after that you should have 7 Classes created in a psr-0 conform way:
    - Zavalit\Business\Listeneres\StornoListener
    - Zavalit\Business\Listeneres\BayListener
 
- and also it's Specs.
+ and also relevant 7 Spec Classes.
